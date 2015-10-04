@@ -1,0 +1,109 @@
+body {
+	background-color: rgb(200, 200, 200); /* changes background color to shade of grey */
+}
+
+#bulletin_board {
+	margin: 5% auto; /* aligns bulletin board to the center of the body with a 5% margin on all sides */
+	width: 600px; height: 400px; /* creates a div of size 600px x 400px  */
+	background-color: rgb(160, 96, 58); /* changes background color to shade of brown */
+	border-left: 10px solid rgb(196, 133, 80); /* changes left border color to shade of brown */
+	border-right: 10px solid rgb(196, 133, 80); /* changes right border color to shade of brown */
+	border-top: 10px solid rgb(191, 131, 79); /* changes top border color to shade of brown */
+	border-bottom: 10px solid rgb(191, 131, 79); /* changes bottom border color to shade of brown */
+}
+
+#post_it_1,
+#post_it_2,
+#post_it_3,
+#post_it_4 {
+	width: 15%;
+	height: 20%;
+	display: inline-block;
+	position: relative;	
+}
+
+	#post_it_1_tape,
+	#post_it_2_tape,
+	#post_it_3_tape,
+	#post_it_4_tape {
+		background-color: rgba(200, 200, 200, .6);
+		width: 40%;
+		height: 20%;
+		position: relative;	
+	}
+
+#post_it_1 {
+	background-color: rgb(102, 207, 200);
+	top: 50px;
+	left: 25px;
+}
+	#post_it_1_tape {
+		top: -7%;
+		left: 30%;
+	}
+
+#post_it_2 {
+	background-color: rgb(242, 195, 17);
+	top: 175px;
+	left: 55px;
+}
+	#post_it_2_tape {
+		top: -7%;
+		left: 30%;
+	}
+
+#post_it_3 {
+	background-color: rgb(179, 213, 90);
+	top: 135px;
+	left: 145px;
+}
+	#post_it_3_tape {
+		top: -7%;
+		left: 30%;
+	}
+
+#post_it_4 {
+	background-color: rgb(240, 123, 149);
+	top: 270px;
+	left: 155px;
+}
+	#post_it_4_tape {
+		top: -7%;
+		left: 30%;
+	}
+
+#note_1 {
+	background-color: rgb(255, 255, 255);
+	width: 25%;
+	height: 50%;
+	position: relative;
+	top: 250px;
+	left: 65px;
+}
+	#tack_1_bottom {
+		background-color: rgb(56, 136, 132);
+		width: 10%;
+		height: 8%;
+		border-radius: 50%;
+		position: relative;
+		top: -2%;
+		left: 42%;
+	}
+	#tack_1_top {
+		background-color: rgb(77, 186, 180);
+		width: 8%;
+		height: 6%;
+		margin-bottom: -5px;
+		border-radius: 50%;
+		position: relative;
+		top: -10%;
+		left: 40%;
+	}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(100, 100, 100, .2);
+    margin: .5em .2em;
+    line-height: .5em;
+    padding: 0;
+}
